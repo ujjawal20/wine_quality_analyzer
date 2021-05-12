@@ -1,0 +1,190 @@
+Red
+mean of the volatile acidity variable =  0.527820512821
+mean of the volatile acidity variable after normalization =  -3.21020397396e-16
+
+OLS regression model for the association between the amount of volatile acidity in wine and the quality of wine:
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:                quality   R-squared:                       0.153
+Model:                            OLS   Adj. R-squared:                  0.152
+Method:                 Least Squares   F-statistic:                     287.4
+Date:                Mon, 06 Jun 2016   Prob (F-statistic):           2.05e-59
+Time:                        15:43:15   Log-Likelihood:                -1794.3
+No. Observations:                1599   AIC:                             3593.
+Df Residuals:                    1597   BIC:                             3603.
+Df Model:                           1
+Covariance Type:            nonrobust
+====================================================================================
+                       coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------------
+Intercept            5.6360      0.019    303.054      0.000         5.600     5.673
+volatile_acidity    -1.7614      0.104    -16.954      0.000        -1.965    -1.558
+==============================================================================
+Omnibus:                       20.577   Durbin-Watson:                   1.736
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               21.905
+Skew:                           0.242   Prob(JB):                     1.75e-05
+Kurtosis:                       3.306   Cond. No.                         5.59
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+White
+mean of the volatile acidity variable =  0.278241118824
+mean of the volatile acidity variable after normalization =  -1.07128701808e-15
+
+OLS regression model for the association between the amount of volatile acidity in wine and the quality of wine:
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:                quality   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                  0.038
+Method:                 Least Squares   F-statistic:                     193.0
+Date:                Mon, 06 Jun 2016   Prob (F-statistic):           4.67e-43
+Time:                        15:43:17   Log-Likelihood:                -6260.0
+No. Observations:                4898   AIC:                         1.252e+04
+Df Residuals:                    4896   BIC:                         1.254e+04
+Df Model:                           1
+Covariance Type:            nonrobust
+====================================================================================
+                       coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------------
+Intercept            5.8779      0.012    473.506      0.000         5.854     5.902
+volatile_acidity    -1.7109      0.123    -13.891      0.000        -1.952    -1.469
+==============================================================================
+Omnibus:                       76.271   Durbin-Watson:                   1.646
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               84.657
+Skew:                           0.268   Prob(JB):                     4.14e-19
+Kurtosis:                       3.357   Cond. No.                         9.92
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Red
+OLS multivariate regression model
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:                quality   R-squared:                       0.348
+Model:                            OLS   Adj. R-squared:                  0.346
+Method:                 Least Squares   F-statistic:                     170.3
+Date:                Thu, 09 Jun 2016   Prob (F-statistic):          2.66e-145
+Time:                        12:19:24   Log-Likelihood:                -1584.3
+No. Observations:                1599   AIC:                             3181.
+Df Residuals:                    1593   BIC:                             3213.
+Df Model:                           5
+Covariance Type:            nonrobust
+====================================================================================
+                       coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------------
+Intercept            5.6360      0.016    345.158      0.000         5.604     5.668
+volatile_acidity    -1.0687      0.101    -10.594      0.000        -1.267    -0.871
+chlorides           -1.9288      0.400     -4.818      0.000        -2.714    -1.143
+pH                  -0.4173      0.117     -3.575      0.000        -0.646    -0.188
+sulphates            0.8474      0.110      7.675      0.000         0.631     1.064
+alcohol              0.3055      0.017     18.383      0.000         0.273     0.338
+==============================================================================
+Omnibus:                       18.512   Durbin-Watson:                   1.734
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               26.655
+Skew:                          -0.113   Prob(JB):                     1.63e-06
+Kurtosis:                       3.591   Cond. No.                         26.4
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+White
+OLS multivariate regression model
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:                quality   R-squared:                       0.250
+Model:                            OLS   Adj. R-squared:                  0.249
+Method:                 Least Squares   F-statistic:                     325.9
+Date:                Thu, 09 Jun 2016   Prob (F-statistic):          4.08e-302
+Time:                        12:19:31   Log-Likelihood:                -5650.4
+No. Observations:                4898   AIC:                         1.131e+04
+Df Residuals:                    4892   BIC:                         1.135e+04
+Df Model:                           5
+Covariance Type:            nonrobust
+====================================================================================
+                       coef    std err          t      P>|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------------
+Intercept            5.8779      0.011    536.033      0.000         5.856     5.899
+volatile_acidity    -2.0437      0.110    -18.554      0.000        -2.260    -1.828
+density             36.8919      5.941      6.209      0.000        25.244    48.540
+pH                   0.1822      0.074      2.457      0.014         0.037     0.328
+sulphates            0.3162      0.098      3.230      0.001         0.124     0.508
+alcohol              0.3925      0.014     27.137      0.000         0.364     0.421
+==============================================================================
+Omnibus:                       91.867   Durbin-Watson:                   1.623
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              188.456
+Skew:                           0.038   Prob(JB):                     1.19e-41
+Kurtosis:                       3.958   Cond. No.                         667.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+
+Red
+Logistic regression model for the association between wine's quality and sulphates&alcohol
+Optimization terminated successfully.
+         Current function value: 0.309742
+         Iterations 8
+                           Logit Regression Results
+==============================================================================
+Dep. Variable:              quality_c   No. Observations:                 1599
+Model:                          Logit   Df Residuals:                     1596
+Method:                           MLE   Df Model:                            2
+Date:                Thu, 16 Jun 2016   Pseudo R-squ.:                  0.2200
+Time:                        16:27:55   Log-Likelihood:                -495.28
+converged:                       True   LL-Null:                       -634.96
+                                        LLR p-value:                 2.171e-61
+===============================================================================
+                  coef    std err          z      P>|z|      [95.0% Conf. Int.]
+-------------------------------------------------------------------------------
+Intercept      -4.0398      0.217    -18.607      0.000        -4.465    -3.614
+sulphates_c     1.3845      0.173      7.990      0.000         1.045     1.724
+alcohol_c       2.2261      0.211     10.564      0.000         1.813     2.639
+===============================================================================
+
+Confidence intervals
+             Lower conf.int.  Upper conf.int.  Odds ratio
+Intercept           0.011501         0.026937    0.017601
+sulphates_c         2.843148         5.607741    3.992948
+alcohol_c           6.129303        14.000459    9.263534
+
+[3 rows x 3 columns]
+
+
+White
+Logistic regression model for the association between wine's quality and sulphates&alcohol
+Optimization terminated successfully.
+         Current function value: 0.462412
+         Iterations 6
+                           Logit Regression Results
+==============================================================================
+Dep. Variable:              quality_c   No. Observations:                 4898
+Model:                          Logit   Df Residuals:                     4895
+Method:                           MLE   Df Model:                            2
+Date:                Thu, 16 Jun 2016   Pseudo R-squ.:                  0.1147
+Time:                        16:27:56   Log-Likelihood:                -2264.9
+converged:                       True   LL-Null:                       -2558.4
+                                        LLR p-value:                3.447e-128
+===============================================================================
+                  coef    std err          z      P>|z|      [95.0% Conf. Int.]
+-------------------------------------------------------------------------------
+Intercept      -2.3937      0.077    -31.049      0.000        -2.545    -2.243
+sulphates_c     0.1990      0.074      2.679      0.007         0.053     0.345
+alcohol_c       1.7924      0.080     22.379      0.000         1.635     1.949
+===============================================================================
+
+Confidence intervals
+             Lower conf.int.  Upper conf.int.  Odds ratio
+Intercept           0.078488         0.106181    0.091290
+sulphates_c         1.054847         1.411418    1.220176
+alcohol_c           5.131542         7.024243    6.003765
+
+[3 rows x 3 columns]
